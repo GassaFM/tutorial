@@ -208,6 +208,10 @@ int main ()
 	int frow = finish[1] - '1';
 	int fcol = finish[0] - 'a';
 
+	int const infinity = 99;
+	vector <vector <int> > dist (8, vector <int> (8, infinity));
+	dist[srow][scol] = 0;
+
 	queue <pair <int, int> > q;
 	q.push ({srow, scol});
 
