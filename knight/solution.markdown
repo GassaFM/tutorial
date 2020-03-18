@@ -48,7 +48,7 @@ f2
 
 Напишем шапку.
 В программе понадобится ввод-вывод, а также структуры данных
-&laquo;очередь&raquo;, &laquo;пара&raquo; и &laquo;вектор&laquo;.
+&laquo;очередь&raquo;, &laquo;пара&raquo; и &laquo;вектор&raquo;.
 
 ```
 #include <iostream>
